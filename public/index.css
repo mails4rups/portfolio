@@ -1,0 +1,36 @@
+/* Page Loader ================================= */
+.page-loader-wrapper,.lodr-overlay {
+    z-index: 99999999;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #eee;
+    overflow: hidden;
+    text-align: center; }
+    .page-loader-wrapper p {
+    font-size: 13px;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #444; }
+    .page-loader-wrapper .loader, .gif-loader {
+    position: relative;
+    top: calc(50% - 30px); }
+    .lodr-overlay{background:rgba(29, 24, 24, 0.575)!important;}
+    .lodr-overlay p{color:#FFF;}
+    .modal-fullscreen,.modal-fullscreen .modal-content{
+    left:0;
+    top:0;
+    bottom:0;
+    right:0;
+    width:100%;
+    position:absolute;
+    margin: 0;
+    }
+    .package-active{
+        background-color: #ffc107;
+        border: 1px solid #ffc107;
+    }
