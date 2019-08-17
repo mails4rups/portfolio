@@ -1,3 +1,12 @@
+@import url(../src/assets/css/bootstrap.css);
+@import url(../src/assets/vendors/linericon/style.css);
+@import url(../src/assets/css/font-awesome.min.css);
+@import url(../src/assets/vendors/owl-carousel/owl.carousel.min.css);
+@import url(../src/assets/css/magnific-popup.css);
+@import url(../src/assets/vendors/nice-select/css/nice-select.css);
+@import url(../src/assets/css/style.css);
+
+
 /* Page Loader ================================= */
 .page-loader-wrapper,.lodr-overlay {
     z-index: 99999999;
