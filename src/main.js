@@ -27,11 +27,19 @@ import { BASE_URL,WEBSITE_NAME } from "./utils/init";
 
 /** Importing  pages **/
 import Home from "./pages/Home.vue";
+import About from "./pages/About.vue";
+import Blog from "./pages/Blog.vue";
+import BlogDetails from "./pages/BlogDetails.vue";
+import Contact from "./pages/Contact.vue";
 
 Vue.config.productionTip = false
 
 /** Defining Router **/
 const routes = [
+  { path: "/about", component: About },
+  { path: "/contact", component: Contact },
+  { path: "/blog", component: Blog },
+  { path: "/blog-details", component: BlogDetails },
   { path: "/home", component: Home },
   { path: "/", component: Home },
   { path: '*', redirect: '/' }
