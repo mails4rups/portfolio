@@ -43,3 +43,9 @@
         background-color: #ffc107;
         border: 1px solid #ffc107;
     }
+
+    .logo{
+        background: linear-gradient(to right, #4458dc, rgb(145, 27, 241) ) !important;
+        -webkit-text-fill-color: transparent !important;
+        -webkit-background-clip: text !important;
+    }

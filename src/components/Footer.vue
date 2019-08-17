@@ -5,9 +5,10 @@
 				<div class="col-lg-12">
 					<div class="footer_top flex-column">
 						<div class="footer_logo">
-							<a href="#">
-								<img src="../assets/img/logo.png" alt="">
-							</a>
+							<router-link to="/home">
+								<!-- <img src="../assets/img/logo.png" alt=""> -->
+                <h2 class="logo">Rupam Jana</h2>
+							</router-link>
 							<h4>Follow Me</h4>
 						</div>
 						<div class="footer_social">
