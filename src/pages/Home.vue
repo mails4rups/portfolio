@@ -266,7 +266,7 @@
 								</a>
 							</div>
 							<div class="short_info">
-								<h4><a href="portfolio-details.html">FawnX</a></h4>
+								<h4><a href="http://dev.fawnex.com/" target="_blank">FawnEX</a></h4>
 								<p>Trading Platform,CRM</p>
 							</div>
 						</div>
@@ -283,7 +283,7 @@
 								</a>
 							</div>
 							<div class="short_info">
-								<h4><a href="portfolio-details.html">Paybito</a></h4>
+								<h4><a href="https://www.paybito.com/" target="_blank">Paybito</a></h4>
 								<p>Web Application,CRM</p>
 							</div>
 						</div>
